@@ -1,0 +1,68 @@
+header {
+    background-color: ghostwhite;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    z-index: 999;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: darkcyan;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: darkcyan;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 30px;
+}
+
+section {
+    padding: 100px 200px
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/478/534/desktop-wallpaper-backgrounds-for-travel-website-travel-agency.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+
+    .main h2 {
+        color: aliceblue;
+        font-weight: 300;
+        font-size: 1.4em;
+    }
+
+        .main h2 span {
+            color: azure;
+            font-size: 3em;
+            font-weight: 600;
+        }
+
+    .main h3 {
+        color: floralwhite;
+    }
+
+.main_btn {
+    color: antiquewhite;
+    background-color: teal;
+    font-weight: 400;
+    font-size: 1.4em;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: .5px;
+    border-radius: 5px;
+}
